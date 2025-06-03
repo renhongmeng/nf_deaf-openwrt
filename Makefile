@@ -3,14 +3,14 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=nf_deaf
-PKG_VERSION:=1.0
+PKG_VERSION:=1.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 #PKG_SOURCE_URL:=https://github.com/kob/nf_deaf.git
 PKG_SOURCE_URL:=https://github.com/kmb21y66/nf_deaf/
-PKG_SOURCE_DATE:=2025-04-09   # 替换为仓库实际提交日期
-PKG_SOURCE_VERSION:=a481ca95aa5a127c739402e086743d870273c1f2  # 替换为实际提交的哈希值（例如 `git rev-parse HEAD`）
+PKG_SOURCE_DATE:=2025-06-03   # 替换为仓库实际提交日期
+PKG_SOURCE_VERSION:=e27078907b26eb21350937d98e9f439a88779f8c  # 替换为实际提交的哈希值（例如 `git rev-parse HEAD`）
 PKG_MIRROR_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
