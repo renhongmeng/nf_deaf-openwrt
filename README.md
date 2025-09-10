@@ -12,7 +12,7 @@
     ./scripts/feeds install -a
     
     1.3 添加 nf_deaf 源码
-    git clone https://github.com/kob/nf_deaf-openwrt.git package/kernel/nf_deaf
+    git clone https://github.com/renhongmeng/nf_deaf.git package/kernel/nf_deaf
     
 2. 配置编译选项
 
